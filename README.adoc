@@ -1,0 +1,6 @@
+Resposta da questão
+Quando se atribui o parâmetro newConfig ao this.config acaba criando um novo objeto ao acessar a segunda classe.
+
+De modo geral, pode se acessar o ConfigResource pelo Swagger e alterar o formato do relatório e também o tipo de Gráfico utilizando o PUT. Porém quando o GET for solicitado, ainda do ConfigResource, ele confimou a mudança.
+
+De toda forma, ao solicitar o GET do RelatorioResource será criado um novo objeto com os parâmetros iniciais, contrariando o padrão singleton
